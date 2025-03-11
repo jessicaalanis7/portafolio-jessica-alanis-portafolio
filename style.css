@@ -1,3 +1,16 @@
 /* Add styles here */
 /* importar bootstrap */
 @import '~bootstrap/dist/css/bootstrap.min.css';
+
+h1{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: rgb(255, 0, 85)
+}
+
+.photo {
+    max: width 300px;
+    height: 200px;
+    float: left;
+}
+
+.photo

@@ -2,15 +2,19 @@
 /* importar bootstrap */
 @import '~bootstrap/dist/css/bootstrap.min.css';
 
+header{
+    width:auto;
+    background-color: rgb(255, 64, 124)
+}	
+
 h1{
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    color: rgb(255, 0, 85)
+    font-family: 'Josefin Sans', sans-serif'
+    color: rgb(255, 64, 124)
+    text-align: center;
 }
 
 .photo {
-    max: width 300px;
-    height: 200px;
-    float: left;
+    max: width 200px;
+    height: 100px;
+    float: right;
 }
-
-.photo

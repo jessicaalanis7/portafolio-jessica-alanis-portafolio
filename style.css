@@ -2,22 +2,63 @@
 /* importar bootstrap */
 @import '~bootstrap/dist/css/bootstrap.min.css';
 
-header{
-    width: 1100px;;
+.fondo{
+    background-color: rgb(223, 223, 223);
+}
+wrap{
+    width: 1100px;
     height: auto;
-    background-color: rgb(0, 0, 0)
+    background-color: rgb(153, 104, 114);
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 0%;
+}
+
+header{
+    width: 100%;
+    height: autopx;
+    background-color: rgb(0, 0, 0);
 }	
 
 h1{
-    font-family: 'Josefin Sans', sans-serif'
-    color: rgb(255, 64, 124)
+    font-family: 'Josefin Sans';
+    color: rgb(255, 64, 124);
     text-align: center;
+    margin: 30px;
+}
     
+h2 {
+    f
 }
 
 .photo {
-    max: width 200px;
-    height: 100px;
-    float: right;
+    
+    height: 5%;
+    float: center;
+    align-items: center;
 }
 
+.photografito1 {
+    height: 10%;
+    float: right
+}
+
+.photografito2 {
+    height: 10%;
+    float:left;
+}
+
+    .vibur-regular {
+        font-family: "Vibur", cursive;
+        font-weight: 400;
+        font-style: normal;}
+h6{
+   
+        font-family: "Vibur", cursive;
+        font-weight: 800;
+        font-style: normal;
+        height: auto;
+        font-size: 200%;
+
+}
+      

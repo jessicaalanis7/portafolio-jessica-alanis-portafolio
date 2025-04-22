@@ -1,14 +1,27 @@
 /* importar bootstrap */
 @import '~bootstrap/dist/css/bootstrap.min.css';
 
-.navbar {
+.nav-bar {
     font-family: 'Poppins', sans-serif;
-    color: rgb(17, 17, 17);
+    background-color: rgb(8, 8, 8);
     font-size: 120%;
     position: sticky;
     top: 0;
-    left: 0;
-
+    z-index: 999;
+    display:flex;
+  }
+  
+.navbar .navbar-nav .nav-link {
+    color: white;  
+}
+.nav-bar .navbar-nav .nav-link:hover {
+    color: rgb(255, 64, 124);
+}
+  .logo-img {
+    height: 40px;
+    width: auto;
+    display: block;
+    padding-right: 10px;
   }
 
 .fondo{
@@ -16,7 +29,7 @@
 }
 .wrap{
     width: 100%;
-    height: 50%;
+    height: 200%;
     background-color: rgb(0, 0, 0);
     margin-bottom: 0%;
 }
@@ -30,24 +43,111 @@ header h1{
     color: rgb(255, 64, 124);
     font-size: 600%;
     letter-spacing: -12px;
+    margin: 0;
+    padding: 0;
+    
 }	
-
+header h1:hover{
+    
+}
 h1{
     font-family: 'Josefin Sans';
     font-size: 50px;
-    margin-top: 20px;
 }
 .photoinicio {
     width: 100%;
     height: auto;
   display: flex;
   justify-content: center;
-  margin-top: 0%;
-}04
-h2 {
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  margin: 0%;
+}
+.presentación-wrapper{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 10%;
+    padding: 10%;
+}
+.presentación{
+    width: 60%;
+    text-align: right;
+    position: relative;
+    float: right;
+
+}
+#quiensoy {
+  width: 40%;
+    color: #000000;
     text-align: left;
-    margin: 30px;
+    position: relative;
+  }
+  
+#quiensoy .title {
+    flex-wrap: wrap;
+    font-size: 8rem;
+    position: relative;
+    display: inline-block;
+    margin-bottom: 20px;
+    margin-left: %;
+    color:rgb(0, 0, 0);
+    letter-spacing: -20px;
+    line-height: 90px;
+    float: left;
+  }
+
+  #quiensoy .quien,
+  #quiensoy .soy{
+    display: block;
+    text-align: right;
+  }
+.valores {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 30px;
+    font-size: 600%;
+    justify-content: center;
+    text-align: center;
+    margin-bottom: 5%;
+}
+.valores-item h1 {
+    margin:0%;
+}
+.valores-item:hover{
+    color: rgb(255, 64, 124);
+    transform: scale(1.2);
+    text-shadow: 2px 2px 10px rgba(238, 52, 28, 0.582);
+
+}
+.rectangulo{
+    width: 100%;
+    height: 150px;
+    background-color: #000000;
+}
+.photodesign{
+        width: 15%;
+        height: 50%;
+      display: flex;
+      justify-content: flex-start;
+}
+.photophotography{
+    width: 15%;
+    height: 50%;
+  display: flex;
+  justify-content: flex-start;
+
+}
+.photocheer{
+    width: 15%;
+    height: 100%;
+  display: flex;
+  justify-content: flex-start;
+
+}
+h2 {
+    font-family: 'Josefin Sans';
 }
 h3 {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
@@ -55,19 +155,8 @@ h3 {
 .presentación {
     letter-spacing: 5%;
 }
-
-.photografito1 {
-    height: 10%;
-    float: right
-}
-
-.photografito2 {
-    height: 10%;
-    float:left;
-}
-
     
-h6{
+h4{
    
         font-family: "Vibur", cursive;
         font-weight: 800;
@@ -77,3 +166,38 @@ h6{
 
 }
       
+html {
+    scroll-behavior: smooth;
+  }
+.secciones {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 10%;
+  justify-content: center;
+}
+
+.buttondesign {
+    display: inline-block;
+    padding: 5%;
+    margin: 5%;
+    color: rgb(255, 64, 124);
+    text-decoration: none;
+    font-family: 'Josefin Sans';
+    font-size: 2.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .buttonphotography {
+    display: inline-block;
+    padding: 5%;
+    margin: 5%;
+    color: rgb(255, 64, 124);
+    text-decoration: none;
+    font-family: 'Josefin Sans';
+    font-size: 2.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
